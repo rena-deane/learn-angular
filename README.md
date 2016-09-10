@@ -11,7 +11,7 @@
   ![alt text](images/01-module.png "module line slide")
   ![alt text](images/02-module.png "Include module")
 
-## Modules
+## Expressions
   - Allow you to insert dynamic values into HTML
   ![alt text](images/01-expressions.png "module line slide")
   ![alt text](images/02-expressions.png "module line slide")
