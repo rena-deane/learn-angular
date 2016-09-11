@@ -8,4 +8,4 @@
   - Encapsulates our JS
   - Define dependencies for our app
   - Module lines
-  ![alt text](images/01-module.png "Module Line Slide")
+  - ![alt text]('images/01-module.png' "Logo Title Text 1")
