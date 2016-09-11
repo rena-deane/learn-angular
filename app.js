@@ -20,7 +20,7 @@
         {
           rating: 5,
           description: 'Cant beat a classic',
-          reviewer: 'Tiakarete Aroha'
+          author: 'Tiakarete Aroha'
         }
       ]
     },
@@ -34,7 +34,7 @@
         {
           rating: 1,
           description: 'Boring azz',
-          reviewer: 'Piiki Puku'
+          author: 'Piiki Puku'
         }
       ]
     },
@@ -48,12 +48,12 @@
         {
           rating: 5,
           description: 'Very crunchy and balanced',
-          reviewer: 'Hoki Te Poki'
+          author: 'Hoki Te Poki'
         },
         {
           rating: 1,
           description: 'No teeth left, too hard.  Felt like I was biting rocks',
-          reviewer: 'Manawa Kino'
+          author: 'Manawa Kino'
         }
       ]
     },
@@ -67,12 +67,12 @@
         {
           rating: 5,
           description: 'Best Sundae EVER!',
-          reviewer: 'Aihi Kirimi'
+          author: 'Aihi Kirimi'
         },
         {
           rating: 3,
           description: 'Heart attack on a plate',
-          reviewer: 'Manawa Kino'
+          author: 'Manawa Kino'
         }
       ],
     },
