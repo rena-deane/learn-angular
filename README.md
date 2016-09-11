@@ -1,6 +1,6 @@
 # Learn Angular.JS
 
-Notes on AngularJS [tutorial](http://campus.codeschool.com/courses/shaping-up-with-angular-js)
+Create basic app using AngularJS [tutorial](http://campus.codeschool.com/courses/shaping-up-with-angular-js)
 
 ## Directives
   - Links the behaviour to the HTML
