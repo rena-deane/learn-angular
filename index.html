@@ -15,6 +15,7 @@
       <p class='price'>{{product.price | currency}}</p>
       <p class="description">{{product.description}}</p>
       <img ng-src="{{product.image}}" />
+      <button ng-hide="store.checkQty({{product.quantity}})">Add to Cart</button>
     </li>
 
   </body>
