@@ -1,0 +1,19 @@
+{
+  "name": "learn-angular",
+  "version": "1.0.0",
+  "description": "Learn angularjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rena-deane/learn-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rena-deane/learn-angular/issues"
+  },
+  "homepage": "https://github.com/rena-deane/learn-angular#readme"
+}
