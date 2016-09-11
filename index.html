@@ -18,13 +18,12 @@
       <button ng-hide="store.checkQty({{product.quantity}})">Add to Cart</button>
       <p class='out-of-stock' ng-show="store.checkQty({{product.quantity}})">Out of Stock</p>
       <h3>Reviews</h3>
-      <div ng-controller="ReviewController as reviews">
-        <blockquote ng-repeat="review in reviews.review">
-          <strong>{{review.rating}}</strong>
+      <div>
+        <blockquote ng-repeat="review in product.reviews">
+          <strong>{{review.rating}} Stars</strong>
           {{review.description}}
           <cite>- {{review.author}}</cite>
         </blockquote>
-
       </div>
     </li>
 
