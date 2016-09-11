@@ -13,7 +13,9 @@
     <li ng-repeat="product in store.products">
       <h2>{{product.name}}</h2>
       <p class='price'>{{product.price | currency}}</p>
+      <p class="description">{{product.description}}</p>
       <img ng-src="{{product.image}}" />
     </li>
+
   </body>
 </html>
