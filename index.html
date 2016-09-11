@@ -17,6 +17,10 @@
       <img ng-src="{{product.image}}" />
       <button ng-hide="store.checkQty({{product.quantity}})">Add to Cart</button>
       <p class='out-of-stock' ng-show="store.checkQty({{product.quantity}})">Out of Stock</p>
+      <h3>Reviews</h3>
+      <div ng-controller="ReviewController as reviews">
+        <h4>{{reviews.rating}}</h4>
+      </div>
     </li>
 
   </body>

@@ -2,6 +2,15 @@ img {
   width: 10em;
 }
 
+li {
+  list-style: none;
+}
+
 .price {
   font-size: 2em;
+}
+
+.out-of-stock {
+  color: red;
+  text-transform: uppercase;
 }
