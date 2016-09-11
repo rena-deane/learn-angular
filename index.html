@@ -5,8 +5,15 @@
     <title>Slush-Angular</title>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script type="text/javascript" src='app.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body ng-controller="StoreController as store">
     <h1>Shaping Up with Angular</h1>
+    <li ng-repeat="product in store.products">
+      <h2>{{product.name}}</h2>
+      <p class='price'>{{product.price | currency}}</p>
+      <img ng-src="{{product.image}}" />
+    </li>
   </body>
 </html>
